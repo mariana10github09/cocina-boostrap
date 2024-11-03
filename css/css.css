@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.rutas {
+    justify-content: end;
+    margin-left: 20%;
+}
+
+.rutas a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.rutas a:hover {
+    color: red;
+}
+
+.rutass {
+    justify-content: end;
+    margin-left: 20%;
+}
+
+.rutass a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.rutass a:hover {
+    color: red;
+}
+
+@media (max-width: 600px) {
+    .rutas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 40%;
+    }
+
+    .rutass {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .tamaa {
+        margin-left: 8%;
+    }
+
+    .rutas a {
+        margin-top: 10%;
+    }
+
+    .rutass a {
+        margin-top: 10%;
+    }
+
+
+
+  .card {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.bott {
+    background-color: rgb(207, 57, 57);
+}
+
+.containerr {
+    background-color: aquamarine;
+}
+
+.con1 {
+    background-color: rgb(231, 120, 120);
+    color: rgb(255, 255, 255);
+}
+
+.con2 {
+    background-color: #c8c47c;
+    color: #fff;
+}
+
+.estilos {
+    color: red;
+}
+
+.completa {
+    background-image: url(../multimedia/chef_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+}
+
+button {
+    margin-left: 38%;
+    color: #fff;
+    width: 25%;
+}
+
+.tama {
+    font-size: xx-large;
+}
+
+.tamaa {
+    display: flex;
+    padding-left: 80%;
+    
+}
+
+
+
+
+.contene p {
+    background-color: #c8c47c;
+    margin: 3%;
+    border-radius: 10%;
+    font-size: 15px;
+    margin-bottom: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contene {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(188, 190, 192);
+
+}
+
+.card{
+    background-color: gray;
+    margin: 1%;
+    width: 30%;
+    border-radius: 0;
+    padding: 0; 
+
+}
